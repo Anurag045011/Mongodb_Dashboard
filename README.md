@@ -1,3 +1,4 @@
+# **Steam Games Insights Dashboard - MongoDB Analysis and Managerial Insights**
 ![Game Insights Dashboard](https://github.com/user-attachments/assets/b9a00343-fa22-4b0a-a876-67c08d667052)
 
 

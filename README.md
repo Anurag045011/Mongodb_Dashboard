@@ -1,4 +1,85 @@
 # **Steam Games Insights Dashboard - MongoDB Analysis and Managerial Insights**
+
+#### **Objective**  
+The goal of this project was to create an interactive dashboard using data stored in MongoDB, focusing on exploring key trends and insights in the gaming industry. The dashboard visualizes aspects such as game pricing, memory requirements, developer popularity, and more.
+
+---
+### **Detailed Dataset Description**
+
+The dataset used for this project is derived from Steam, a popular gaming platform. It contains comprehensive data about games, their pricing, system requirements, popularity metrics, and developer-related information. Below are the specific details:
+
+---
+
+#### **1. Dataset Features**
+The dataset consists of the following key attributes:
+
+##### **Game Details**
+- **Game Name:** The title of the game.
+- **Genre:** The primary category or type of the game (e.g., Action, Simulation, Adventure).
+- **Release Date:** The year and date the game was released on the Steam platform.
+
+##### **Pricing Information**
+- **Maximum Price:** The highest price a game is sold for.
+- **Average Price:** The mean price of games across the dataset.
+- **Yearly Pricing Trends:** Historical pricing data to analyze affordability over time.
+
+##### **System Requirements**
+- **Minimum RAM:** The minimum memory required to run the game. This is further broken down by operating systems:
+  - **Windows**  
+  - **Linux**  
+  - **MacOS**
+- **Recommended RAM:** The recommended memory for optimal performance, again categorized by OS:
+  - **Windows**
+  - **Linux**
+  - **MacOS**
+
+##### **Popularity Metrics**
+- **Popular Tags:** Metadata describing the game's features (e.g., "Multiplayer," "Singleplayer," "Open World").
+- **PEGI Tags:** Ratings from the Pan-European Game Information system, which categorize games based on age-appropriateness and content.
+  - **Examples:** PEGI 3 (suitable for all ages), PEGI 12 (suitable for players aged 12+), PEGI 18 (suitable for adults only).
+- **Popularity Word Cloud:** A visual summary of tags and genres frequently associated with games.
+
+##### **Developer Information**
+- **Developers:** The studios or companies responsible for creating the games.
+- **Famous Developers:** Highlighting the most prolific or well-known developers in the dataset.
+
+##### **Platform-Specific Details**
+- Information on system-specific requirements and compatibility with Windows, Linux, and MacOS.
+
+---
+
+#### **2. PEGI (Pan-European Game Information)**
+The dataset includes PEGI tags, which are official age ratings used across Europe to classify video games based on their suitability for various age groups. These tags are essential for:
+- **Compliance with Regulations:** Ensuring games are marketed to appropriate audiences.
+- **Parental Guidance:** Helping parents make informed choices for their children.
+- **Market Insights:** Identifying the target demographic for specific types of games.
+
+##### **Key PEGI Ratings in the Dataset:**
+1. **PEGI 3:** Games suitable for all age groups; typically non-violent and family-friendly.
+2. **PEGI 7:** Games with mild violence or scenes that may scare young children.
+3. **PEGI 12:** Games with slightly more graphic violence or sexual innuendo.
+4. **PEGI 16:** Games with realistic violence, drug use, or adult themes.
+5. **PEGI 18:** Games with intense violence, graphic content, or explicit material.
+
+The PEGI tags in the dataset allow us to:
+- Analyze the distribution of games across different ratings.
+- Identify trends in the types of games developed for various age groups.
+- Inform developers and marketers about the preferred age range for specific genres.
+
+---
+
+#### **3. Key Statistics from the Dataset**
+- **Total Number of Games:** 21,000 unique games are analyzed.
+- **Pricing Range:** 
+  - Minimum price: $0 (free-to-play games).
+  - Maximum price: $999 (premium games).
+  - Average price: $445.11.
+- **System Requirements:**
+  - Minimum RAM varies between 2 GB to 8 GB across platforms.
+  - Recommended RAM is typically higher for optimal performance, especially on Windows systems.
+
+# Dashboard
+
 ![Game Insights Dashboard](https://github.com/user-attachments/assets/b9a00343-fa22-4b0a-a876-67c08d667052)
 
 
@@ -94,10 +175,7 @@
 # Learning 
 ---
 
-#### **Objective**  
-The goal of this project was to create an interactive dashboard using data stored in MongoDB, focusing on exploring key trends and insights in the gaming industry. The dashboard visualizes aspects such as game pricing, memory requirements, developer popularity, and more.
 
----
 
 #### **Learnings from Creating the MongoDB Dashboard**
 
